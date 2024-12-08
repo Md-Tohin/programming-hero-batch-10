@@ -32,7 +32,7 @@ function handleSubmit(event){
         //  Get Event Title and create custom message and time
         let title = currentEvent.querySelector('.event-title').innerText;
         const message = `${amount} Taka is Donated for ${title}`;
-        const date = new Date('2024-09-17T08:39:11+06:00');
+        const date = new Date();
         const formattedDate = date.toString();
         const time = `Date : ${formattedDate}`;    
 
